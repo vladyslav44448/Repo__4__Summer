@@ -1,7 +1,59 @@
-.main {
-  color: white;
-  background: blue;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.main span {
+h1 {
+  padding: 3px 39px;
+  margin: 0;
+  border-bottom: solid;
+}
+
+.main__header {
+  display: flex;
+  padding: 22px 0 10px 217px;
+  color: white;
+  background-color: #3b5998;
+  background-image: linear-gradient(#4e69a2, #3b5998 50%);
+  border-bottom: 1px solid #133783;
+  min-height: 42px;
+}
+
+.main__header span {
+
+  font-size: 44px;
+}
+
+.main__header-logo {
+  display: inline-flex;
+}
+
+.main__body {
+  margin: 47px 135px 0 135px;
+  background: green;
+  height: 100%;
+  border-style: solid;
+}
+
+.main__header-enter {
+  width: 100%;
+  text-align: right;
+}
+
+.main__header-enter ul {
+  font-size: 15px;
+  list-style: none;
+}
+
+.main__header-enter__list {
+  display: inline-flex;
+  justify-content: flex-end;
+}
+
+.main__header-enter-login {
+  margin: -24px -186px;
+  }
+
+.main__header-enter-password {
+  margin: -24px 248px;
 }
